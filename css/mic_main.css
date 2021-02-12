@@ -211,6 +211,12 @@
 			text-align: center;
 		}
 
+		@media (max-width: 756px){
+			#intro h1 {
+				font-size:5rem ;
+			}
+		}
+
 		#intro + #header {
 			margin-top: -20rem;
 		}
