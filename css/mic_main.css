@@ -4315,7 +4315,7 @@
 		position: relative;
 		width: 100%;
 		height:300px; 
-		_height:expression(this.height > 400 ? "400px" : this.height);
+		
 	}
 	.page_title h1{
 		position:absolute;
@@ -4459,6 +4459,11 @@
 	@media screen and (max-width: 400px){
 		#intro h1 {
 			font-size:2rem ;
+		}
+	}
+	@media screen and (max-width: 600px){
+		#intro h1 {
+			font-size:3.6rem ;
 		}
 	}
 
