@@ -4456,17 +4456,14 @@
 			padding-top: 50%;
 		}
 	}
+	#intro h1{
+		font-size: clamp(2em, 2em + 3vw, 5em);
+	}
 	@media screen and (max-width: 400px){
 		#intro h1 {
-			font-size:2rem ;
+			font-size:2em ;
 		}
 	}
-	@media screen and (max-width: 600px){
-		#intro h1 {
-			font-size:3.6rem ;
-		}
-	}
+	
 
-	#intro h1{
-		font-size: clamp(1.5em, 2em + 3vw, 5em);
-	}
+	
